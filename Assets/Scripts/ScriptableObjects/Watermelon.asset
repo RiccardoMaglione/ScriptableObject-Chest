@@ -16,6 +16,6 @@ MonoBehaviour:
   ID: 1
   Description: This is a watermelon
   TypeGeneral: 3
-  Artwork: {fileID: 0}
+  Artwork: {fileID: 21300000, guid: c6984ceff2dad6d4aa84a877c0bdbe8a, type: 3}
   RestoreHealthValue: 4
   TypeFood: 2

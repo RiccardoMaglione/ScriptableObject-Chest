@@ -16,6 +16,6 @@ MonoBehaviour:
   ID: 4
   Description: This is a iron shovel
   TypeGeneral: 1
-  Artwork: {fileID: 0}
+  Artwork: {fileID: 21300000, guid: a97b02bc4cde078478b94aaa76aed5ac, type: 3}
   Durability: 500
   TypeTools: 3

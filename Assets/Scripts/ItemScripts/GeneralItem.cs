@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GeneralItem : ScriptableObject
 {
@@ -9,7 +8,7 @@ public class GeneralItem : ScriptableObject
     public int ID;
     public string Description;
     public TypeItem TypeGeneral;
-    public Image Artwork;
+    public Sprite Artwork;
 }
 public enum TypeItem
 {

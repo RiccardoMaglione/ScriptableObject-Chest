@@ -40,7 +40,7 @@ public class ItemDefine : MonoBehaviour
         }
         if(Artwork != null && Item.Artwork != null)
         {
-            Artwork.sprite = Item.Artwork.sprite;
+            Artwork.sprite = Item.Artwork;
         }
         
         TypeGeneral = Item.TypeGeneral;

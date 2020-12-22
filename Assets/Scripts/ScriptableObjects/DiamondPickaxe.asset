@@ -16,7 +16,6 @@ MonoBehaviour:
   ID: 5
   Description: This is a diamond pickaxe
   TypeGeneral: 1
-  Artwork: {fileID: 0}
-  GeneralValue: 0
+  Artwork: {fileID: 21300000, guid: c3c790f69f6eff84f81df9d81e7ace4a, type: 3}
   Durability: 1500
   TypeTools: 5

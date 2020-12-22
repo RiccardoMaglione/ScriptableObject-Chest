@@ -16,7 +16,6 @@ MonoBehaviour:
   ID: 2
   Description: This is a gold ore
   TypeGeneral: 2
-  Artwork: {fileID: 0}
-  GeneralValue: 0
+  Artwork: {fileID: 21300000, guid: 9e09cab035444cd4faf2de8ffa58c784, type: 3}
   Price: 150
   TypeOre: 2
