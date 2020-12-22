@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23362c78e4df84442939613d2b625756, type: 3}
+  m_Name: GoldOre
+  m_EditorClassIdentifier: 
+  Name: Gold Ore
+  ID: 2
+  Description: This is a gold ore
+  TypeGeneral: 2
+  Artwork: {fileID: 0}
+  GeneralValue: 0
+  Price: 150
+  TypeOre: 2
