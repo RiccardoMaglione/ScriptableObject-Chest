@@ -11,13 +11,13 @@ public class ChangeScene : MonoBehaviour
     public void ChestToInfo()
     {
         PanelChest.SetActive(false);
-        PanelChest.SetActive(true);
+        PanelInfo.SetActive(true);
     }
 
     public void InfoToChest()
     {
         PanelChest.SetActive(true);
-        PanelChest.SetActive(false);
+        PanelInfo.SetActive(false);
     }
 
     public void ReloadScene()
