@@ -1,25 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-[CreateAssetMenu(fileName = "NewChestItemTools", menuName = "ChestItem/ItemTools")]
-public class ToolsItem : GeneralItem
+namespace MaglioneFramework
 {
-    public int Durability;
-    public TypeToolsItem TypeTools;
-
-    private void Awake()
+    [CreateAssetMenu(fileName = "NewChestItemTools", menuName = "ChestItem/ItemTools")]
+    public class ToolsItem : GeneralItem
     {
-        TypeGeneral = TypeItem.Tools;
+        public int Durability;
+        public TypeToolsItem TypeTools;
+
+        private void Awake()
+        {
+            TypeGeneral = TypeItem.Tools;
+        }
+
     }
-    
-}
-public enum TypeToolsItem
-{
-    Null,
-    Wooden,
-    Stone,
-    Iron,
-    Gold,
-    Diamond
+    public enum TypeToolsItem
+    {
+        Null,
+        Wooden,
+        Stone,
+        Iron,
+        Gold,
+        Diamond
+    }
 }

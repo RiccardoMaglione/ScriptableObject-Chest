@@ -2,20 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewChestItemFood", menuName = "ChestItem/ItemFood")]
-public class FoodItem : GeneralItem
+namespace MaglioneFramework
 {
-    public int RestoreHealthValue;
-    public TypeFoodItem TypeFood;
-
-    private void Awake()
+    [CreateAssetMenu(fileName = "NewChestItemFood", menuName = "ChestItem/ItemFood")]
+    public class FoodItem : GeneralItem
     {
-        TypeGeneral = TypeItem.Food;
+        public int RestoreHealthValue;
+        public TypeFoodItem TypeFood;
+    
+        private void Awake()
+        {
+            TypeGeneral = TypeItem.Food;
+        }
     }
-}
-public enum TypeFoodItem
-{
-    Null,
-    Base,
-    Advance
+    public enum TypeFoodItem
+    {
+        Null,
+        Base,
+        Advance
+    
+    }
 }

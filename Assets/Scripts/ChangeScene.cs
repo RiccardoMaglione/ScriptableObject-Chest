@@ -2,27 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class ChangeScene : MonoBehaviour
+namespace MaglioneFramework
 {
-    public GameObject PanelChest;
-    public GameObject PanelInfo;
-
-    public void ChestToInfo()
+    public class ChangeScene : MonoBehaviour
     {
-        PanelChest.SetActive(false);
-        PanelInfo.SetActive(true);
-    }
+        public GameObject PanelChest;
+        public GameObject PanelInfo;
 
-    public void InfoToChest()
-    {
-        PanelChest.SetActive(true);
-        PanelInfo.SetActive(false);
-    }
+        public void ChestToInfo()
+        {
+            PanelChest.SetActive(false);
+            PanelInfo.SetActive(true);
+        }
 
-    public void ReloadScene()
-    {
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        public void InfoToChest()
+        {
+            PanelChest.SetActive(true);
+            PanelInfo.SetActive(false);
+        }
+
+        public void ReloadScene()
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
     }
 }
